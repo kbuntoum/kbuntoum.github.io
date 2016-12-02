@@ -10,13 +10,15 @@ layout: default
     {% for post in site.posts %}
       <li>
         <h2>
-          /*<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">My Website</a>*/
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">My Website</a>
           <a class="twitter-timeline" href="https://twitter.com/SnipingKendo/likes">Tweets Liked by @SnipingKendo</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </h2>
       </li>
     {% endfor %}
   </ul>
 
+  <p>I am currently on my 3-4th year of college on my way in getting a degree in Computer Systems Game Development. </p>
+  
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
